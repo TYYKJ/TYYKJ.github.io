@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-15T06:47:41.988Z</updated>
+  <updated>2021-11-15T06:52:26.703Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2021/11/15/%E6%AC%A2%E8%BF%8E%E4%BD%A0%EF%BC%8C%E6%96%B0%E5%90%8C%E4%BA%8B/"/>
     <id>http://example.com/2021/11/15/%E6%AC%A2%E8%BF%8E%E4%BD%A0%EF%BC%8C%E6%96%B0%E5%90%8C%E4%BA%8B/</id>
     <published>2021-11-14T16:00:00.000Z</published>
-    <updated>2021-11-15T06:47:41.988Z</updated>
+    <updated>2021-11-15T06:52:26.703Z</updated>
     
     <content type="html"><![CDATA[<h1 id="欢迎你，新同事！"><a href="#欢迎你，新同事！" class="headerlink" title="欢迎你，新同事！"></a>欢迎你，新同事！</h1><p>2021年11月15日上午，研发部召开研发部早会暨新人职业培训会，研发部副总监崔天伦、人事部经理王荣新、人事部助理汤奉驭等出席活动，与新同事亲切交谈，畅聊工作和生活。</p><h2 id="1-研发部早会"><a href="#1-研发部早会" class="headerlink" title="1. 研发部早会"></a>1. 研发部早会</h2><p>首先，研发部副总监对新同事的加入表示诚挚欢迎。随后，由部内成员依次汇报一周内的工作情况和下周计划。各位同事依次发言，对一周以来的工作情况和工作中遇到的问题进行汇报，研发部副总监崔天伦对遇到的问题进行解答。会上，大家对遇到的难点问题热烈讨论，促进了彼此之间的成长。</p><p><img src="https://raw.githubusercontent.com/TYYKJ/blogPic/main/2.png"></p><h2 id="2-新人职业培训会"><a href="#2-新人职业培训会" class="headerlink" title="2.新人职业培训会"></a>2.新人职业培训会</h2><p>在研发会早会结束后，人事部助理汤奉驭为新来同事进行了新人入职培训。带新来的同事们了解了公司发展状况、公司理念、公司福利待遇等，两位同事对公司发展有了更深刻的了解。</p><p><img src="https://raw.githubusercontent.com/TYYKJ/blogPic/main/3.png"></p><p>最后，人事部经理王荣新从入职目标的确立、公司人文关怀、工作生活氛围、未来发展规划等方面分享了自己的心得体会，并希望新同事能在励图高科全身心地投入工作，各展所长，为公司发展添砖加瓦。</p><p><img src="https://raw.githubusercontent.com/TYYKJ/blogPic/main/%E8%81%8C%E4%B8%9A%E5%9F%B9%E8%AE%AD5.jpg"></p>]]></content>
     
@@ -43,7 +43,7 @@
     <link href="http://example.com/2021/11/13/%E5%8A%B1%E5%9B%BE%E7%A0%94%E5%8F%91%E9%83%A8%E5%AF%B9%E4%BA%8EOCR%E7%9A%84%E6%8E%A2%E7%B4%A2/"/>
     <id>http://example.com/2021/11/13/%E5%8A%B1%E5%9B%BE%E7%A0%94%E5%8F%91%E9%83%A8%E5%AF%B9%E4%BA%8EOCR%E7%9A%84%E6%8E%A2%E7%B4%A2/</id>
     <published>2021-11-13T09:15:23.000Z</published>
-    <updated>2021-11-15T06:38:08.993Z</updated>
+    <updated>2021-11-15T06:52:30.815Z</updated>
     
     <content type="html"><![CDATA[<h1 id="OCR技术实践与探索"><a href="#OCR技术实践与探索" class="headerlink" title="OCR技术实践与探索"></a>OCR技术实践与探索</h1><h2 id="背景与挑战"><a href="#背景与挑战" class="headerlink" title="背景与挑战"></a>背景与挑战</h2><p>OCR(光学字符识别)是在公司业务中常见的一类业务需求。较之传统的OCR算法，在深度学习兴起后，OCR算法基本上已有深度学习替代。为了帮助业务实现复杂自然环境场景下的船舶号识别，我们进行了一系列的实践和探索，最终确定了基于深度学习的文字检测和识别模型作为主要的实现手段从而满足业务上的需求。实践过程中，我们遇到了一系列的问题和难点。通过对这些问题的逐步解决，逐渐构建起基于自主业务需求的OCR识别检测框架。</p><p>针对不同的场景，OCR基本分为单阶段和二阶段，目前工业落地算法大多基于二阶段算法。二阶段算法分为文本检测和文本识别两个阶段。本文主要分享在OCR技术落地中的实践与探索。</p><p>对于用户的使用场景来说，包含着许多复杂的情况，例如：</p><ul><li><strong>复杂的光影环境</strong>：由于我们的落地场景在海上，很多时间下海面反光和逆光会造成对于文本区域的定位不准确，由于室外尤其是海上环境多变，不同天气条件下对于文本区域的光影变幻是巨大的。</li><li><strong>垂直场景多</strong>：由于是港口环境，室外文字复杂多变，需要精准的定位需要的文字部分。由于字体等不规范，对于不同的字体模型识别能力可能不足，准确率不够好。</li><li><strong>监控距离远</strong>：由于监控距离远导致字体模糊，监控本身对焦问题以及大风天气下监控自身晃动都对OCR造成较大影响。</li></ul><p>下面将详细阐述我们是如何设计高准确率、低延时的OCR识别系统。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>基于上述分析的难点和挑战，我们设计了基于自身业务需求的船舶号分析系统。</p><p><img src="https://raw.githubusercontent.com/TYYKJ/blogPic/main/ocr%E7%AE%97%E6%B3%95%E6%B5%81%E7%A8%8B.png"></p><p align="center">图1 OCR算法流程</p><ul><li>目标检测模块主要用于判断区域内是否存在船舶目标，如果存在船舶目标，则进入OCR模块进行下一步的操作</li><li>检测到船舶目标之后，提取船舶位置的切图图像，去掉冗余图像，送入文本检测模块</li><li>文本检测模块用于定位文本区域，通过文本检测模块精准定位船舶号，通过文本矫正技术矫正倾斜文本后送入识别模块</li><li>识别模块即对需要识别的图像进行文字识别最后将结果传出保存</li></ul><h3 id="文本检测模块"><a href="#文本检测模块" class="headerlink" title="文本检测模块"></a>文本检测模块</h3><p>常用的深度学习文本检测方法一般基于回归和分割两大类。</p><p><img src="https://raw.githubusercontent.com/TYYKJ/blogPic/main/ocr%E7%AE%97%E6%B3%95.jpg"></p><p align="center">图2 文本检测常用算法</p><p>基于回归的方法分为bbox回归和像素值回归。</p><ul><li>采用box回归的方法主要有CTPN、Textbox系列和EAST，这类算法对规则形状文本检测效果较好，但无法准确检测不规则形状文本，对过长文本效果也不太好。</li><li>像素值回归的方法主要有CRAFT和SA-Text，这类算法能够检测弯曲文本且对小文本效果优秀但是实时性能不够。</li></ul><p>基于分割的算法不受文本形状的限制，对各种形状的文本都能取得较好的效果，但是往往后处理比较复杂，推理耗时较多。</p><p>我司采用基于实时分割的DBNet算法，DBNet将二值化进行近似，使其可导，大大降低了后处理的耗时。</p><p><img src="https://raw.githubusercontent.com/WenmuZhou/DBNet.pytorch/master/imgs/paper/db.jpg"></p><p align="center">图3 DBNet模型结构</p><p>基于对精度和速度的平衡考虑，我们在现有标注数据较少的情况下采用了resnet50（预训练数据为ImageNet）作为backbone。检测框架使用PyTorchlightning框架作为基础框架进行构建，可以无缝接入多GPU训练，日志记录等功能。大大减少了工程代码的编写并提高了研发人员调优的速度。</p><p>在后期考虑使用模型蒸馏，对模型进行进一步优化。目前线上部署使用的是PyTorch推理，并没有上TensorRT或ONNX转换推理。初步部署的模型在M10 GPU上的推理速度约为0.5s。</p><h3 id="文本识别"><a href="#文本识别" class="headerlink" title="文本识别"></a>文本识别</h3><p>文本检测需要的训练数据相对较少，文本识别则需要大量的数据进行训练，特别是中文字符。且训练数据获取较难，标注成本较高。</p><p>在实际业务场景中，文本识别通常存在以下问题：</p><ul><li>自然场景复杂，文字多样，各种风格和字体都存在，数据难以采集</li><li>文字不均衡</li><li>相似字问题</li><li>自然场景光线遮挡问题</li></ul><p>针对上数据问题，在大量采集数据并标注的前提下，我们一部分数据使用了合成数据作为训练数据。</p><p>目前主流的文本识别算法是基于深度学习的端到端文本识别，将图像转换为序列学习问题，两大主流算法为CRNN和Attention。CRNN借鉴了语音识别的思想，使用LSTM和CTC方法解决了不定长序列的对齐问题。Attention则借鉴了机器学习中的Encoder-Decoder模型并加入了注意力机制进行特征对齐。</p><p>在识别模型上，我们使用的还是传统的CRNN+CTC算法。受限于数据标注，目前复杂自然环境下的船舶号识别准确率还没有质的提升。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>作为渔船渔港的一个技术亮点，OCR识别是不可或缺的关键部分，但是受限于技术发展以及数据问题，目前识别结果还不尽如人意。后期我们会根据实际业务场景和特点对OCR进行进一步的优化，加入检测后分类模型以及角度分析模型等。我们也会继续优化公司内部的OCR框架，使其更好地为公司业务服务。</p>]]></content>
     
@@ -56,8 +56,7 @@
     
     
     
-    <category term="ocr,torch
-- OCR技术实践与探索" scheme="http://example.com/tags/ocr-torch-OCR%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5%E4%B8%8E%E6%8E%A2%E7%B4%A2/"/>
+    <category term="ocr,torch" scheme="http://example.com/tags/ocr-torch/"/>
     
   </entry>
   
